@@ -23,6 +23,8 @@ print(nums)
 
 nums.append(24)
 nums.remove(3)
+nums.append(2)
+nums.append(9)
 
 for i in range(len(nums)):
     print(f'nums[',i,'] = ',nums[i])
